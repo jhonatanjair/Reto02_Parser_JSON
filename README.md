@@ -4,17 +4,12 @@ Este proyecto consiste en la implementación de un **parser JSON de bajo nivel**
 
 ## 📁 Estructura del Proyecto
 
-📁 RETO02_PARSER_JSON/
-
-├── 📄 go.mod           // Módulo de Go
-
-├── 📄 main.go         // Código principal con ejemplos de uso del parser
-
-├── 📄 parser.go       // Implementación completa del parser JSON
-
-├── 📄 parser_test.go  // Casos de prueba unitarios
-
-└── 📄 README.md       // Documentación del proyecto
+    📁 RETO02_PARSER_JSON/
+    ├── 📄 go.mod             # Módulo de Go
+    ├── 📄 main.go            # Código principal con ejemplos de uso del parser
+    ├── 📄 parser.go          # Implementación completa del parser JSON
+    ├── 📄 parser_test.go     # Casos de prueba unitarios
+    └── 📄 README.md          # Documentación del proyecto
 
 
 ## 🧠 ¿Qué hace este parser?
@@ -30,15 +25,18 @@ Este parser convierte cadenas JSON válidas en estructuras nativas de Go:
 
 Además, **detecta errores** comunes en JSON mal formados, indicando la línea y columna del error.
 
-## ⚙️ Compilación y Ejecución
 
-Desde la carpeta raíz del proyecto:
+## ⚙️ Compilación y Ejecución 
+**Desde la carpeta raíz del proyecto:**
 
-```bash
-go run .
-Para ejecutar las pruebas unitarias:
-go test
-✅ Características implementadas
+    go run .
+
+**Para ejecutar las pruebas unitarias:**
+
+    go test
+
+## ✅Características implementadas
+
 ✔️ Soporte para objetos JSON anidados
 
 ✔️ Soporte para arreglos anidados
@@ -53,37 +51,48 @@ go test
 
 ✔️ Pruebas para casos válidos e inválidos
 
-📋 Casos de prueba cubiertos
-JSON válidos:
+## 📋 Casos de prueba cubiertos
 
-Objetos simples y anidados
+**JSON válidos:**
 
-Arreglos con diferentes tipos
+✔️Objetos simples y anidados
 
-Strings simples y con escapado
+✔️Arreglos con diferentes tipos
 
-Booleanos y null
+✔️Strings simples y con escapado
 
-Valores primitivos como "texto", 42, true
+✔️Booleanos y null
 
-JSON inválidos:
+✔️Valores primitivos como "texto", 42, true
 
-Claves sin comillas
 
-Strings sin cerrar
+**JSON inválidos:**
 
-Faltas de comas
+✔️Claves sin comillas
 
-Uso incorrecto de :, {, [
+✔️Strings sin cerrar
 
-📌 Conclusiones
-El proyecto ha permitido reforzar conceptos clave como análisis sintáctico, recursión, y manejo de errores estructurados.
+✔️Faltas de comas
 
-Go es un lenguaje robusto para trabajar con análisis de texto, gracias a su control de errores explícito y tipos seguros.
+✔️Uso incorrecto de :, {, [
 
-Desarrollar un parser desde cero ayuda a comprender cómo funcionan internamente bibliotecas como encoding/json.
+## 📌 Conclusiones
 
-🔧 Autores: Jhonatan Jair Huaman Yovera y Claudia Regalado Diaz
-🎓 Curso: Taller de Lenguajes de Programación
-📅 Fecha: Julio 2025
+🔹El proyecto ha permitido reforzar conceptos clave como análisis sintáctico, recursión, y manejo de errores estructurados.
 
+🔹Go es un lenguaje robusto para trabajar con análisis de texto, gracias a su control de errores explícito y tipos seguros.
+
+🔹Desarrollar un parser desde cero ayuda a comprender cómo funcionan internamente bibliotecas como encoding/json.
+
+
+## 🔧 Autores: 
+🔹Jhonatan Jair Huaman Yovera
+
+🔹Claudia Regalado Diaz
+
+## 🎓 Curso: 
+
+Taller de Lenguajes de Programación
+
+
+  
