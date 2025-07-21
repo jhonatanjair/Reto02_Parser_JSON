@@ -5,11 +5,17 @@ Este proyecto consiste en la implementación de un **parser JSON de bajo nivel**
 ## 📁 Estructura del Proyecto
 
 📁 RETO02_PARSER_JSON/
-├── 📄 go.mod
-├── 📄 main.go // Código principal con ejemplos de uso del parser
-├── 📄 parser.go // Implementación completa del parser JSON
-├── 📄 parser_test.go // Casos de prueba unitarios
-└── 📄 README.md
+
+├── 📄 go.mod           // Módulo de Go
+
+├── 📄 main.go         // Código principal con ejemplos de uso del parser
+
+├── 📄 parser.go       // Implementación completa del parser JSON
+
+├── 📄 parser_test.go  // Casos de prueba unitarios
+
+└── 📄 README.md       // Documentación del proyecto
+
 
 ## 🧠 ¿Qué hace este parser?
 
@@ -30,10 +36,8 @@ Desde la carpeta raíz del proyecto:
 
 ```bash
 go run .
-
 Para ejecutar las pruebas unitarias:
 go test
-
 ✅ Características implementadas
 ✔️ Soporte para objetos JSON anidados
 
@@ -70,7 +74,7 @@ Strings sin cerrar
 
 Faltas de comas
 
-Uso incorrecto de : o {, [
+Uso incorrecto de :, {, [
 
 📌 Conclusiones
 El proyecto ha permitido reforzar conceptos clave como análisis sintáctico, recursión, y manejo de errores estructurados.
@@ -82,3 +86,4 @@ Desarrollar un parser desde cero ayuda a comprender cómo funcionan internamente
 🔧 Autores: Jhonatan Jair Huaman Yovera y Claudia Regalado Diaz
 🎓 Curso: Taller de Lenguajes de Programación
 📅 Fecha: Julio 2025
+
