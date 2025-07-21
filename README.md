@@ -5,8 +5,11 @@ Este proyecto consiste en la implementación de un **parser JSON de bajo nivel**
 ## 📁 Estructura del Proyecto
 RETO02_PARSER_JSON/
 ├── go.mod
+
 ├── main.go // Código principal con ejemplos de uso del parser
+
 ├── parser.go // Implementación completa del parser JSON
+
 └── parser_test.go // Casos de prueba unitarios
 
 ## 🧠 ¿Qué hace este parser?
@@ -69,15 +72,6 @@ Strings sin cerrar
 Faltas de comas
 
 Uso incorrecto de : o {, [
-
-🧩 Dificultades encontradas
-Implementar correctamente el análisis recursivo para objetos y arreglos fue uno de los principales retos.
-
-El manejo de caracteres escapados en strings como \" o \\ requirió una lógica especial.
-
-Para que el reporte de errores fuese preciso, fue necesario llevar un contador de líneas y columnas durante el parsing.
-
-Evitar encoding/json implicó crear manualmente un tokenizador y diseñar un control de flujo robusto.
 
 📌 Conclusiones
 El proyecto ha permitido reforzar conceptos clave como análisis sintáctico, recursión, y manejo de errores estructurados.
