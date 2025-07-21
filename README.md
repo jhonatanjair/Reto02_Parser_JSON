@@ -3,6 +3,7 @@
 Este proyecto consiste en la implementación de un **parser JSON de bajo nivel** utilizando el lenguaje de programación Go. El parser ha sido desarrollado **sin utilizar el paquete `encoding/json`**, cumpliendo así con las restricciones del reto.
 
 ## 📁 Estructura del Proyecto
+
 📁 RETO02_PARSER_JSON/
 ├── 📄 go.mod
 ├── 📄 main.go // Código principal con ejemplos de uso del parser
