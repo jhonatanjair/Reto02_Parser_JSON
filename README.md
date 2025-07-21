@@ -4,11 +4,11 @@ Este proyecto consiste en la implementación de un **parser JSON de bajo nivel**
 
 ## 📁 Estructura del Proyecto
 📁 RETO02_PARSER_JSON/
-├── 📄 go.mod            
-├── 📄 main.go             // Código principal con ejemplos de uso del parser
-├── 📄 parser.go          // Implementación completa del parser JSON
-├── 📄 parser_test.go    // Casos de prueba unitarios
-└── 📄 README.md        
+├── 📄 go.mod
+├── 📄 main.go // Código principal con ejemplos de uso del parser
+├── 📄 parser.go // Implementación completa del parser JSON
+├── 📄 parser_test.go // Casos de prueba unitarios
+└── 📄 README.md
 
 ## 🧠 ¿Qué hace este parser?
 
